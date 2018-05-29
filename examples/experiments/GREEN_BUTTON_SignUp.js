@@ -7,7 +7,6 @@ import styled from 'styled-components'
 import {
   Box,
   Flex,
-  Container,
   Card,
   Heading,
   Text,
@@ -37,7 +36,7 @@ export default ({
   handleChange,
   handleBlur
 }) => (
-  <Container px={3} py={4}>
+  <Box>
     <form onSubmit={handleSubmit}>
       <Card p={3}>
         <Heading mb={2}>Sign Up</Heading>
@@ -65,5 +64,5 @@ export default ({
         <GreenButton>Sign Up</GreenButton>
       </Card>
     </form>
-  </Container>
+  </Box>
 )

@@ -1,10 +1,11 @@
 {
   "name": "rebranch",
   "version": "1.0.0-0",
-  "description": "React context-based, conditional rendering component for A/B experiments",
+  "description": "React context-based, conditional rendering components for A/B experiments",
   "main": "dist/index.js",
   "scripts": {
     "start": "x0 examples",
+    "build": "x0 build examples -d docs",
     "cover": "nyc report --reporter=html",
     "test": "nyc ava"
   },
@@ -18,7 +19,8 @@
     "nyc": "^11.8.0",
     "react": "^16.4.0",
     "react-test-renderer": "^16.4.0",
-    "rebass": "^2.0.0-2"
+    "rebass": "^2.0.0-2",
+    "styled-components": "^3.3.0"
   },
   "dependencies": {
     "babel-cli": "^6.26.0",
@@ -27,6 +29,9 @@
     "babel-preset-stage-0": "^6.24.1",
     "babel-register": "^6.26.0",
     "prop-types": "^15.6.1"
+  },
+  "x0": {
+    "basename": "/rebranch"
   },
   "ava": {
     "require": [

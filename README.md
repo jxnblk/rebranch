@@ -1,7 +1,7 @@
 
 # Rebranch
 
-React context-based, conditional rendering component for A/B experiments
+React context-based, conditional rendering components for A/B experiments
 
 **Requires React v16.3.0 and up**
 
@@ -91,5 +91,9 @@ export default class Home extends React.Component {
   }
 }
 ```
+
+## Demo
+
+[View the example](examples) for a basic demo
 
 [MIT License](LICENSE.md)

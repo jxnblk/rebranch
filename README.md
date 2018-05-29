@@ -3,7 +3,12 @@
 
 React context-based, conditional rendering components for A/B experiments
 
+[![Build Status][build-badge]][build-status]
+
 **Requires React v16.3.0 and up**
+
+[build-badge]: https://img.shields.io/travis/jxnblk/rebranch/master.svg?style=flat-square
+[build-status]: https://travis-ci.org/jxnblk/rebranch
 
 ```sh
 npm i rebranch

@@ -1,0 +1,37 @@
+{
+  "name": "rebranch",
+  "version": "1.0.0-0",
+  "description": "React context-based, conditional rendering component for A/B experiments",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "x0 examples",
+    "cover": "nyc report --reporter=html",
+    "test": "nyc ava"
+  },
+  "keywords": [],
+  "author": "Brent Jackson",
+  "license": "MIT",
+  "devDependencies": {
+    "@compositor/x0": "^5.0.3",
+    "ava": "^0.25.0",
+    "formik": "^0.11.11",
+    "nyc": "^11.8.0",
+    "react": "^16.4.0",
+    "react-test-renderer": "^16.4.0",
+    "rebass": "^2.0.0-2"
+  },
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "prop-types": "^15.6.1"
+  },
+  "ava": {
+    "require": [
+      "babel-register"
+    ],
+    "babel": "inherit"
+  }
+}

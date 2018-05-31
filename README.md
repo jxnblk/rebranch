@@ -81,10 +81,9 @@ import { Branch } from 'rebranch'
 import SignUpForm from './SignUpForm'
 import VARIANT_SignUpForm from './experiments/VARIANT_SignUpForm'
 
-// for true A/B tests (not multivariant) the first child
-// will render when the experiment state is *not* `'DEFAULT'`
-// the second child will render when the state is
-// equal to 'DEFAULT'
+// for true A/B tests (not multivariant)
+// the first child will render when the experiment state is 'DEFAULT'
+// the second child will render when the experiment state is *not* `'DEFAULT'`
 export default class Home extends React.Component {
   render () {
     return (
